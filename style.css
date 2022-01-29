@@ -64,7 +64,27 @@ body {
 }
 
 .arrow {
-	width: 1rem;
-	height: 1rem;
+	width: 0.7rem;
+	height: 0.7rem;
 	align-self: start;
+}
+
+h4 {
+	font-weight: 700;
+	font-size: 0.8rem;
+	opacity: 0.8;
+}
+
+p {
+	opacity: 0.7;
+}
+
+hr {
+	background-color: var(--dark_gray_blue);
+	opacity: 0.3;
+}
+
+#scroll {
+	background-color: transparent;
+	border: transparent;
 }
