@@ -1,0 +1,70 @@
+html {
+	box-sizing: border-box;
+}
+
+:root {
+	--dark_des_blue: hsl(238, 29%, 16%);
+	--soft_red: hsl(14, 88%, 65%);
+	--soft_violet: hsl(273, 75%, 66%);
+	--soft_blue: hsl(240, 73%, 65%);
+	--very_dark_gray_blue: hsl(237, 12%, 33%);
+	--dark_gray_blue: hsl(240, 6%, 50%);
+	--light_gray_blue: hsl(240, 5%, 91%);
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	font-family: "Kumbh Sans", sans-serif;
+	font-size: 0.9rem;
+}
+
+body {
+	padding: 1rem;
+	background-image: url(images/bg-pattern-desktop.svg);
+	background-image: linear-gradient(var(--soft_violet), var(--soft_blue));
+	background-size: cover;
+}
+
+/* Mobile first approach */
+
+.card {
+	background-color: #fff;
+	border-radius: 20px;
+	margin: 8rem auto;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
+.ilustration__div {
+	width: 100%;
+}
+
+.ilustration {
+	width: 80%;
+	margin-top: -8rem;
+	margin-left: 2rem;
+}
+
+.title {
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin: 4rem auto;
+}
+
+.flex {
+	display: flex;
+	gap: 2rem;
+	justify-content: space-between;
+}
+
+.arrow {
+	width: 1rem;
+	height: 1rem;
+	align-self: start;
+}
