@@ -55,13 +55,17 @@
 							/>
 						</button>
 					</div>
-					<p id="invite__answer"></p>
+					<p id="invite__answer">
+						You can invite up to 2 additional users on the Free
+						plan. There is no limit on team members for the Premium
+						plan.
+					</p>
 					<hr />
 					<div class="flex">
 						<h4 class="upload__question">
 							What is the maximum file upload size?
 						</h4>
-						<button id="scroll">
+						<button id="scroll" onclick="showText1()">
 							<img
 								class="arrow"
 								src="images/icon-arrow-down.svg"
@@ -78,7 +82,7 @@
 						<h4 class="password__question">
 							How do I reset my password?
 						</h4>
-						<button id="scroll">
+						<button id="scroll" onclick="showText2()">
 							<img
 								class="arrow"
 								src="images/icon-arrow-down.svg"
@@ -96,7 +100,7 @@
 						<h4 class="subscription__question">
 							Can I cancel my subscription?
 						</h4>
-						<button id="scroll">
+						<button id="scroll" onclick="showText3()">
 							<img
 								class="arrow"
 								src="images/icon-arrow-down.svg"
@@ -106,14 +110,14 @@
 					</div>
 					<p id="subscription__answer">
 						Yes! Send us a message and we’ll process your request no
-						questions asked.
+						questions asked
 					</p>
 					<hr />
 					<div class="flex">
 						<h4 class="support__question">
 							Do you provide additional support?
 						</h4>
-						<button id="scroll">
+						<button id="scroll" onclick="showText4()">
 							<img
 								class="arrow"
 								src="images/icon-arrow-down.svg"
@@ -127,7 +131,9 @@
 					</p>
 				</section>
 			</div>
+			<hr />
 		</main>
+
 		<footer>
 			<div class="attribution">
 				Challenge by
