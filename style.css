@@ -35,19 +35,14 @@ body {
 	background-color: #fff;
 	border-radius: 20px;
 	margin: 8rem auto;
-	padding: 1rem;
 	display: flex;
+	padding: 1rem;
 	flex-direction: column;
 	gap: 3rem;
 }
 .ilustration__div {
 	width: 100%;
-}
-
-.ilustration {
-	width: 80%;
-	margin-top: -8rem;
-	margin-left: 2rem;
+	position: relative;
 }
 
 .title {
@@ -69,10 +64,15 @@ body {
 	align-self: start;
 }
 
+.text__section {
+	max-width: 30rem;
+	margin: 0 auto;
+}
+
 h4 {
 	font-weight: 700;
 	font-size: 0.8rem;
-	opacity: 0.8;
+	opacity: 0.5;
 }
 
 p {
