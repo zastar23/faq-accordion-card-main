@@ -99,19 +99,19 @@ hr {
 @media (min-width: 1100px) {
 	.card {
 		flex-direction: row;
-		max-width: 50rem;
-		gap: 3rem;
+		max-width: 60rem;
+		gap: 8rem;
 		padding: 3rem 3rem 3rem 0;
 	}
 
 	.ilustration__div {
-		width: 20rem;
+		width: 30rem;
 		text-align: left;
 		position: relative;
 	}
 
 	.ilustration {
-		width: 18rem;
+		width: 25rem;
 		position: absolute;
 		bottom: 2.1rem;
 		left: -4.5rem;
@@ -133,9 +133,9 @@ hr {
 
 	.descktop__shadow {
 		display: block;
-		width: 24rem;
+		width: 30rem;
 		position: absolute;
-		bottom: -4rem;
-		left: -10rem;
+		bottom: -5.5rem;
+		left: -9rem;
 	}
 }
