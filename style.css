@@ -19,7 +19,6 @@ html {
 	padding: 0;
 	box-sizing: inherit;
 	font-family: "Kumbh Sans", sans-serif;
-	font-size: 0.9rem;
 }
 
 body {
@@ -35,20 +34,27 @@ body {
 	width: 90%;
 	max-width: 40rem;
 	margin: 5rem auto;
-	padding: 3% 3%;
+	padding: 2rem;
 	display: flex;
 	flex-direction: column;
 	gap: 5rem;
+	font-size: 0.7rem;
 }
 
 .ilustration__div {
 	text-align: center;
 	max-width: 40rem;
+	position: relative;
 }
 
 .ilustration {
-	width: 50%;
-	margin-top: -5rem;
+	width: 80%;
+	margin-top: -7rem;
+}
+
+.shadow {
+	width: 80%;
+	margin-top: -3rem;
 }
 
 .flex {
@@ -58,13 +64,13 @@ body {
 
 .title {
 	text-align: center;
-	margin-bottom: 5rem;
+	margin: -1rem 0 2rem;
 	font-size: 3rem;
 	font-weight: 700;
 }
 
 .text__section h4 {
-	margin: 1rem 0;
+	margin: 0.5rem 0;
 }
 
 .text__section p {
@@ -73,7 +79,7 @@ body {
 }
 
 hr {
-	margin: 1rem 0;
+	margin: 0.5rem 0;
 	opacity: 0.7;
 }
 
@@ -82,34 +88,54 @@ hr {
 	border: transparent;
 }
 
+.descktop__shadow {
+	display: none;
+}
+
+.orange__box {
+	display: none;
+}
+
 @media (min-width: 1100px) {
 	.card {
 		flex-direction: row;
-		max-width: 80rem;
-		gap: 15rem;
+		max-width: 50rem;
+		gap: 3rem;
+		padding: 3rem 3rem 3rem 0;
 	}
 
 	.ilustration__div {
-		width: 30%;
-		align-self: center;
-		margin-left: -5rem;
+		width: 20rem;
 		text-align: left;
 		position: relative;
 	}
 
 	.ilustration {
-		width: 35rem;
+		width: 18rem;
 		position: absolute;
-		top: -10rem;
-		left: -1rem;
+		bottom: 2.1rem;
+		left: -4.5rem;
 	}
 
 	.text__section {
-		width: 60%;
+		width: 40rem;
+		font-size: 1rem;
 	}
 
 	.title {
 		text-align: left;
 		margin-bottom: 0;
+	}
+
+	.shadow {
+		display: none;
+	}
+
+	.descktop__shadow {
+		display: block;
+		width: 24rem;
+		position: absolute;
+		bottom: -4rem;
+		left: -10rem;
 	}
 }
